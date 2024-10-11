@@ -1,0 +1,23 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{Inhaltsverzeichnis}{III}{Doc-Start}
+\contentsline {chapter}{Abbildungsverzeichnis}{IV}{section*.1}
+\contentsline {chapter}{Tabellenverzeichnis}{V}{section*.2}
+\contentsline {chapter}{Formelverzeichnis}{VI}{section*.3}
+\ttl@starttoc {default@1}
+\contentsline {chapter}{\numberline {1}Einleitung zur Einleitung}{6}{chapter.4}
+\contentsline {section}{\numberline {1.1}Einleitung}{6}{section.5}
+\contentsline {section}{\numberline {1.2}Text ...}{7}{section.8}
+\contentsline {subsection}{\numberline {1.2.1}Schriftgroeße}{7}{subsection.9}
+\contentsline {subsection}{\numberline {1.2.2}Schriftart}{7}{subsection.10}
+\contentsline {paragraph}{\nonumberline Farben}{7}{section*.11}
+\contentsline {subsection}{\numberline {1.2.3}Tabelle}{8}{subsection.12}
+\ttl@stoptoc {default@1}
+\ttl@stoptoc {default@1}
+\ttl@starttoc {default@2}
+\contentsline {chapter}{\numberline {2}Einleitung zur Mathematik}{9}{chapter.15}
+\contentsline {section}{\numberline {2.1}Mathematik}{9}{section.16}
+\contentsline {section}{\numberline {2.2}Zeichen und Listen}{11}{section.23}
+\contentsline {section}{\numberline {2.3}Grafiken}{12}{section.37}
+\ttl@stoptoc {default@2}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{13}{chapter*.40}
+\contentsfinish 

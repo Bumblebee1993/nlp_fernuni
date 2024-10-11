@@ -1,0 +1,111 @@
+\section{Text ...}
+
+%\leavevmode\marginpar{Test test test}
+... wird einfach eingetippt. Leerzeichen trennen wie üblich Wörter, die Anzahl ist egal.
+Auch Zeilenumbrüche im Quelltext werden ignoriert.
+Zeilenumbrüche macht das System
+selbständig. Ein neuer Absatz entsteht, wenn man im Quelltext eine
+
+Zeile frei lässt.  
+
+
+
+Um Wortabstände und Zeilenabstände künstlich zu verändern gibt es die Befehle
+$\backslash$hspace \hspace{9mm} (siehe Quelltext) und $\backslash$vspace \vspace{10mm}
+die man aber selten braucht. Man beachte, dass der zweite Befehl erst beim folgenden Zeilenumbruch wirkt. Er wird eigentlich nur zwischen
+
+\vspace{10mm}
+Absätzen und im Mathematiksatz eingesetzt.\\  % neue Zeile ohne Absatz
+\textbf{Empfehlung:} Sparsam (oder gar nicht) benutzen!
+
+\subsection{Schriftgroeße}
+
+
+Man kann die Größe der Buchstaben ändern:
+
+{\large groß}, {\LARGE größer}, {\huge noch größer} und {\small klein}
+oder {\tiny winzig} 
+
+\subsection{Schriftart}
+
+
+Um im Text Teil hervorzuheben kann man 
+
+\textit{kursive Schrift}
+\quad % = Abstand ca. 3x Leerzeichen
+\textbf{fett}
+\quad
+\texttt{Schreibmaschinen-Schrift} 
+\quad
+\textsc{Kapitälchen}
+
+benutzen.
+
+Beispiel für Tabulatoren:
+
+\begin{tabbing}
+Wenn \= es regnet \\
+\> dann \= zieh Schuhe an,\\
+\> \> einen Hut;\\
+\> oder lächle. \\
+Verlasse dann das Haus.
+\end{tabbing}
+
+$\backslash\backslash$ markiert das Ende\\ der Zeile.
+
+\paragraph{Farben}
+Dazu braucht man aber die Definitionen aus der Präambel.
+
+\newpage
+\subsection{Tabelle}
+
+Hier ein Beispiel einer Tabelle:
+
+\begin{table}[!htbp]
+%\begin{center}
+\caption{Eine Tabelle mit Inhalt}
+ \begin{tabular}{|l|l|l|p{0.3\linewidth}|}      
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+    
+%\end{center}
+
+\end{table}
+
+\begin{table}[!htbp]
+%\begin{center}
+\caption{Eine Tabelle mit Inhalt}
+ \begin{tabular}{|l|l|l|p{0.3\linewidth}|}      
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+    
+%\end{center}
+
+\end{table}
+
+%\addcontentsline{lot}{table}{Tabelle}
+%\paragraph{Kommentare zur Tabelle:}
+%$\{$lr|c$\}$ bedeutet, dass die erste Spalte linksbündig, die zweite
+%Spalte rechtsbündig, dann eine Linie und die dritte Spalte zentriert
+%gesetzt wird.
+

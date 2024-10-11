@@ -1,0 +1,37 @@
+\documentclass[twoside,bibliography=totoc,openany]{scrbook}
+\include{Package}
+\include{accessibility.sty}
+%\input{Kopfzeile}
+\input{Marginalie}
+%\title{Beispiel einer LaTeX-Datei}
+%\author{Tester}
+%\date{01. Oktober 2017}
+\begin{document}
+\input{Verzeichnisse}
+\input{Kopfzeile2}
+
+
+\startcontents
+\chapter{Einleitung zur Einleitung}
+\thispagestyle{fancy}
+\printcontents{l}{1}{\setcounter{tocdepth}{5}}
+\input{Einleitung}
+\include{Text}
+\stopcontents
+
+
+\startcontents
+\chapter{Einleitung zur Mathematik}
+\thispagestyle{fancy}
+\printcontents{l}{1}{\setcounter{tocdepth}{5}}
+\input{Mathematik}
+\include{Zeichen}
+\stopcontents
+\include{Grafiken}
+
+
+
+\include{Literaturverzeichnis}
+
+
+\end{document}
